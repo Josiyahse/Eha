@@ -453,14 +453,30 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.m-0 {
-  margin: 0px;
+.m-3 {
+  margin: 0.75rem;
+}
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 .flex {
   display: flex;
 }
-.h-screen {
-  height: 100vh;
+.w-screen {
+  width: 100vw;
+}
+.w-1 {
+  width: 0.25rem;
+}
+.w-2\/3 {
+  width: 66.666667%;
+}
+.w-full {
+  width: 100%;
+}
+.w-auto {
+  width: auto;
 }
 .flex-row {
   flex-direction: row;
@@ -471,8 +487,14 @@ video {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.content-center {
+  align-content: center;
+}
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -486,15 +508,22 @@ video {
 .gap-7 {
   gap: 1.75rem;
 }
-.gap-2 {
-  gap: 0.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
-.rounded-full {
-  border-radius: 9999px;
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 .bg-\[\#FAF5F0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(250 245 240 / var(--tw-bg-opacity));
+}
+.bg-\[\#ECE6E0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 230 224 / var(--tw-bg-opacity));
 }
 .bg-\[\#FFBBC2\] {
   --tw-bg-opacity: 1;
@@ -508,24 +537,22 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(165 240 175 / var(--tw-bg-opacity));
 }
-.p-10 {
-  padding: 2.5rem;
+.p-5 {
+  padding: 1.25rem;
 }
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
+.p-3 {
+  padding: 0.75rem;
 }
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
 }
 .text-5xl {
   font-size: 3rem;
@@ -541,4 +568,29 @@ video {
 .text-\[\#3C3A2D\] {
   --tw-text-opacity: 1;
   color: rgb(60 58 45 / var(--tw-text-opacity));
+}
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+@media (min-width: 640px) {
+
+  .sm\:h-full {
+    height: 100%;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
 }
