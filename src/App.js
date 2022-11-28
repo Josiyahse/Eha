@@ -87,7 +87,7 @@ function App() {
   }
 
   return (
-    <div className=" w-screen sm:h-full px-5 pt-3 xl:h-screen xl:px-20 xl:pt-10  bg-[#FAF5F0]">
+    <div className=" w-screen px-5 pt-3 h-screen xl:px-20 xl:pt-10  bg-[#FAF5F0]">
       <div className={Column + JustifyContentCenter + "gap-10"}>
         <div className={Row + JustifyContentCenter}>
           <h1 className={Head1 + Bold + PrimaryColor}>Tirage aux sorts</h1>
