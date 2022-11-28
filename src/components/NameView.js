@@ -33,7 +33,7 @@ function NameView({ listName }) {
         Ronde2 +
         BgWith +
         dropShadowXl +
-        (listName.length === 0 ? null : "p-5")
+        (listName.length === 0 ? null : "p-1")
       }
     >
       {mapName()}

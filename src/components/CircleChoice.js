@@ -10,6 +10,7 @@ import {
   BgRed,
   PrimaryColor,
   dropShadowXl,
+  BgGrey,
 } from "../style/composantStyle";
 
 function CircleChoice({ max, setGroupSize }) {
@@ -37,7 +38,7 @@ function CircleChoice({ max, setGroupSize }) {
             Bold +
             PrimaryColor +
             (number === selectNumber ? BgGreen : null) +
-            (number > max ? BgRed : BgWith) +
+            (number > max ? BgGrey : BgWith) +
             dropShadowXl +
             "px-3"
           }

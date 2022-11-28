@@ -5,6 +5,7 @@ const Column = " flex flex-col ";
 const Head1 = " text-5xl ";
 
 const Head3 = " text-3xl ";
+const text = " text-xl ";
 
 const Bold = " font-bold ";
 
@@ -25,6 +26,8 @@ const BgWith = " bg-[#FFFFFF] ";
 
 const BgGreen = " bg-[#A5F0AF] ";
 
+const BgGrey = " bg-[#808080] ";
+
 const Ronde = " rounded-2xl ";
 const Ronde2 = " rounded-3xl ";
 
@@ -44,7 +47,6 @@ const CenterContent = " content-center ";
 
 const dropShadowXl = " drop-shadow-xl ";
 
-// const ="";
 
 export {
   Row,
@@ -73,4 +75,6 @@ export {
   MarginLR,
   WidthAuto,
   dropShadowXl,
+  BgGrey,
+  text,
 };

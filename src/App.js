@@ -12,6 +12,7 @@ import {
   JustifyContentCenter,
   PrimaryColor,
   Wrap,
+  text,
 } from "./style/composantStyle";
 
 function App() {
@@ -92,15 +93,19 @@ function App() {
           <h1 className={Head1 + Bold + PrimaryColor}>Tirage aux sorts</h1>
         </div>
         <div className={Row + JustifyContentCenter + Wrap}>
-          <p className={PrimaryColor}>
-            Lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem Lorem
-            lorem lorem lorem lorem Lorem lorem lorem lorem lorem Lorem lorem
-            lorem lorem lorem Lorem lorem lorem lorem lorem
+          <p className={PrimaryColor + text}>
+            Bonjour 😁, ce petit programme vous permet de faire des groupes
+            entre amis et camarades de classe. Il arrive bien souvent que l'on
+            doive faire des groupes, mais que l'on se sente mal à l'aise de
+            s'introduire dans un groupe d'amis ou tout simplement de proposer à
+            des gens de nous rejoindre. La solution que j'ai développée vous
+            permet de faire des groupes en fonction de vos besoins. Vous pouvez
+            faire des groupes de 2 à 9 avec un minimum de 4 personnes.
           </p>
         </div>
-        <SelectNumber max={max} setGroupSize={setGroupSize} />
         <EntryName setEntryName={setEntryName} />
         <NameView listName={listName} />
+        <SelectNumber max={max} setGroupSize={setGroupSize} />
         <GroupeView
           listName={listName}
           groupeSize={groupeSize}
